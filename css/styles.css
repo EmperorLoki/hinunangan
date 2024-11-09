@@ -614,6 +614,20 @@ progress {
   content: "— ";
 }
 
+.vid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Optional: add padding for smaller screens */
+}
+
+.vid iframe {
+  width: 100%;
+  max-width: 1045px; /* Limit the maximum width */
+  aspect-ratio: 16 / 9; /* Maintain a 16:9 aspect ratio */
+  height: auto; /* Adjust height automatically based on width */
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
