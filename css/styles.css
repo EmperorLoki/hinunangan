@@ -10863,3 +10863,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+.video .vid iframe {
+  width: 100%; /* Makes the iframe take the full width of its container */
+  height: 100vh; /* Sets the iframe height to 100% of the viewport height */
+  max-width: 1000px; /* Optional: limits the maximum width of the video */
+  max-height: 600px; /* Optional: limits the maximum height of the video */
+}
+
+.video .vid {
+  display: flex;
+  justify-content: center; /* Centers the video horizontally */
+  align-items: center; /* Centers the video vertically */
+}
